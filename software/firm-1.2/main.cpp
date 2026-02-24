@@ -120,9 +120,6 @@ IO myIO;
 //Algo Classes
 //(* initializes it as a pointer, so it doesn't take up a bunch of RAM, I think)
 
-AlgoCulture *myCulture1;
-AlgoCulture *myCulture2;
-
 AlgoReich *myReich1;
 AlgoReich *myReich2;
 
@@ -131,15 +128,6 @@ AlgoPlain *myPlain2;
 
 AlgoSparse *mySparse1;
 AlgoSparse *mySparse2;
-
-AlgoBlocks *myBlocks1;
-AlgoBlocks *myBlocks2;
-
-AlgoWonk *myWonk1;
-AlgoWonk *myWonk2;
-
-AlgoOver *myOver1;
-AlgoOver *myOver2;
 
 AlgoVari *myVari1;
 AlgoVari *myVari2;

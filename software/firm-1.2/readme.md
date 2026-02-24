@@ -29,18 +29,6 @@ Rhythm Generation Algorythms ("mood") used in the official firmware
 
 jfunc - some helper functions (jonah's functions)
 
-
-## DEPRECATED
-
-Moon.h - old moon phase calulator
-
-Unused moods
-AlgoBlocks.h/.cpp
-AlgoCulture.h/.cpp
-AlgoOver.h/.cpp
-AlgoWonk.h/.cpp
-
-
 ## ATTN: Rough seas ahead, threat level high, forest fire risk level: red, etc. etc. (some guy broke into my house and wrote all this shitty code, don't blame me, he seemed crazy)
 
 I wasn't really thinking at all about this code being open sourced, or read by other people, let alone understood or edited/contributed to. It's also my first project in c/c++, and a lot of the code was ported over from arduino with big ole find and replaces when I switched from using an arduino to rpi pico and then a custom rp2040 board.

@@ -1,6 +1,8 @@
 #include <stdio.h>
 #include "pico/stdlib.h"
 
+// This contains the array of the lunar cycle.  This is used by main.cpp/phaseCheck
+
 class PhaseData
 {
     public:
