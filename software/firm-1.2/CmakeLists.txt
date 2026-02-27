@@ -16,11 +16,6 @@ add_executable(test
   AlgoPlain.cpp
   AlgoReich.cpp
   AlgoSparse.cpp
-  AlgoVari.cpp
-  AlgoCulture.cpp 
-  AlgoOver.cpp
-  AlgoBlocks.cpp
-  AlgoWonk.cpp 
   Clock.cpp
 )
 
