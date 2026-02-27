@@ -220,78 +220,6 @@ cyw43_driver_picow_cyw43_bus_pio_spi_pio_h/fast:
 	$(MAKE) $(MAKESILENT) -f pico-sdk/src/rp2_common/cyw43_driver/CMakeFiles/cyw43_driver_picow_cyw43_bus_pio_spi_pio_h.dir/build.make pico-sdk/src/rp2_common/cyw43_driver/CMakeFiles/cyw43_driver_picow_cyw43_bus_pio_spi_pio_h.dir/build
 .PHONY : cyw43_driver_picow_cyw43_bus_pio_spi_pio_h/fast
 
-AlgoBlocks.obj: AlgoBlocks.cpp.obj
-.PHONY : AlgoBlocks.obj
-
-# target to build an object file
-AlgoBlocks.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/AlgoBlocks.cpp.obj
-.PHONY : AlgoBlocks.cpp.obj
-
-AlgoBlocks.i: AlgoBlocks.cpp.i
-.PHONY : AlgoBlocks.i
-
-# target to preprocess a source file
-AlgoBlocks.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/AlgoBlocks.cpp.i
-.PHONY : AlgoBlocks.cpp.i
-
-AlgoBlocks.s: AlgoBlocks.cpp.s
-.PHONY : AlgoBlocks.s
-
-# target to generate assembly for a file
-AlgoBlocks.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/AlgoBlocks.cpp.s
-.PHONY : AlgoBlocks.cpp.s
-
-AlgoCulture.obj: AlgoCulture.cpp.obj
-.PHONY : AlgoCulture.obj
-
-# target to build an object file
-AlgoCulture.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/AlgoCulture.cpp.obj
-.PHONY : AlgoCulture.cpp.obj
-
-AlgoCulture.i: AlgoCulture.cpp.i
-.PHONY : AlgoCulture.i
-
-# target to preprocess a source file
-AlgoCulture.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/AlgoCulture.cpp.i
-.PHONY : AlgoCulture.cpp.i
-
-AlgoCulture.s: AlgoCulture.cpp.s
-.PHONY : AlgoCulture.s
-
-# target to generate assembly for a file
-AlgoCulture.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/AlgoCulture.cpp.s
-.PHONY : AlgoCulture.cpp.s
-
-AlgoOver.obj: AlgoOver.cpp.obj
-.PHONY : AlgoOver.obj
-
-# target to build an object file
-AlgoOver.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/AlgoOver.cpp.obj
-.PHONY : AlgoOver.cpp.obj
-
-AlgoOver.i: AlgoOver.cpp.i
-.PHONY : AlgoOver.i
-
-# target to preprocess a source file
-AlgoOver.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/AlgoOver.cpp.i
-.PHONY : AlgoOver.cpp.i
-
-AlgoOver.s: AlgoOver.cpp.s
-.PHONY : AlgoOver.s
-
-# target to generate assembly for a file
-AlgoOver.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/AlgoOver.cpp.s
-.PHONY : AlgoOver.cpp.s
-
 AlgoPlain.obj: AlgoPlain.cpp.obj
 .PHONY : AlgoPlain.obj
 
@@ -387,30 +315,6 @@ AlgoVari.s: AlgoVari.cpp.s
 AlgoVari.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/AlgoVari.cpp.s
 .PHONY : AlgoVari.cpp.s
-
-AlgoWonk.obj: AlgoWonk.cpp.obj
-.PHONY : AlgoWonk.obj
-
-# target to build an object file
-AlgoWonk.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/AlgoWonk.cpp.obj
-.PHONY : AlgoWonk.cpp.obj
-
-AlgoWonk.i: AlgoWonk.cpp.i
-.PHONY : AlgoWonk.i
-
-# target to preprocess a source file
-AlgoWonk.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/AlgoWonk.cpp.i
-.PHONY : AlgoWonk.cpp.i
-
-AlgoWonk.s: AlgoWonk.cpp.s
-.PHONY : AlgoWonk.s
-
-# target to generate assembly for a file
-AlgoWonk.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/AlgoWonk.cpp.s
-.PHONY : AlgoWonk.cpp.s
 
 Clock.obj: Clock.cpp.obj
 .PHONY : Clock.obj
@@ -2052,15 +1956,6 @@ help:
 	@echo "... cyw43_firmware_package"
 	@echo "... bs2_default"
 	@echo "... test"
-	@echo "... AlgoBlocks.obj"
-	@echo "... AlgoBlocks.i"
-	@echo "... AlgoBlocks.s"
-	@echo "... AlgoCulture.obj"
-	@echo "... AlgoCulture.i"
-	@echo "... AlgoCulture.s"
-	@echo "... AlgoOver.obj"
-	@echo "... AlgoOver.i"
-	@echo "... AlgoOver.s"
 	@echo "... AlgoPlain.obj"
 	@echo "... AlgoPlain.i"
 	@echo "... AlgoPlain.s"
@@ -2073,9 +1968,6 @@ help:
 	@echo "... AlgoVari.obj"
 	@echo "... AlgoVari.i"
 	@echo "... AlgoVari.s"
-	@echo "... AlgoWonk.obj"
-	@echo "... AlgoWonk.i"
-	@echo "... AlgoWonk.s"
 	@echo "... Clock.obj"
 	@echo "... Clock.i"
 	@echo "... Clock.s"

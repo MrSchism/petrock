@@ -34,11 +34,6 @@ int randVals[250];
 #include "AlgoReich.h"
 #include "AlgoSparse.h"
 #include "AlgoVari.h"
-#include "AlgoCulture.h"
-#include "AlgoBlocks.h"
-#include "AlgoWonk.h"
-#include "AlgoOver.h"
-#include "Moon.h"
 #include "Clock.h"
 #include "Light.h"
 #include "PhaseData.h"
@@ -493,53 +488,7 @@ void algoSetup()
     break;
 
 
-  case 4:
 
-      printf("CURRENT: Blocks Algo\n");
-
-      myBlocks1 = new AlgoBlocks;
-      myBlocks2 = new AlgoBlocks;
-
-      myBlocks1->init(inPin1,outPin1,curWeekday,cycle);
-      myBlocks2->init(inPin2,outPin2,curWeekday,cycle);
-
-      break;
-
-  case 5:
-
-		printf("CURRENT: WONK\n");
-
-    myWonk1 = new AlgoWonk;
-    myWonk2 = new AlgoWonk;
-
-    myWonk1->init(inPin1,outPin1,curWeekday,cycle);
-    myWonk2->init(inPin2,outPin2,curWeekday,cycle);
-
-    break;
-
-  case 6:
-
-		printf("CURRENT: ALGO OVER\n");
-
-    myOver1 = new AlgoOver;
-    myOver2 = new AlgoOver;
-
-    myOver1->init(inPin1,outPin1,curWeekday,cycle);
-    myOver2->init(inPin2,outPin2,curWeekday,cycle);
-
-    break;
-
-  case 7:
-    printf("CURRENT: Culture Algo\n");
-
-    myCulture1 = new AlgoCulture;
-    myCulture2 = new AlgoCulture;
-
-    myCulture1->init(inPin1,outPin1,1,4);
-    //Culture1->init(inPin1,outPin1,curWeekday,cycle);
-    myCulture2->init(inPin2,outPin2,curWeekday,cycle);
-
-    break;
     }
 }
 
@@ -655,25 +604,6 @@ void loop()
   		if(cycle != 0){myVari2->tick(in2Val);}
       break;
 
-  	case 4:
-  		myBlocks1->tick();
-  		if(cycle !=0){myBlocks2->tick();}
-      break;
-
-  	case 5:
-  		myWonk1->tick();
-  		if(cycle !=0){myWonk2->tick();}
-      break;
-
-    case 6:
-      myOver1->tick();
-  	  if(cycle !=0){myOver2->tick();}
-    break;
-
-    case 7:
-      myCulture1->tick();
-  	  if(cycle !=0){myCulture2->tick();}
-    break;
 
     }
   } 
